@@ -32,7 +32,7 @@
   },
   "main": "index.js",
   "scripts": {
-    "build": "ncc build index.js -m",
+    "build": "ncc build src/index.js -m",
     "pretest": "npx eslint-config-prettier .eslintrc.json",
     "test": "eslint . && jest",
     "start": "node ./src/index.js"
